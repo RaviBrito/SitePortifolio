@@ -1,0 +1,62 @@
+/* Style index.html*/
+body {
+    background-color: #202020;
+    color: rgba(255, 255, 255, 0.808);
+    
+}
+
+#menu ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 20px;
+}
+#menu li a:hover {
+    text-decoration: none;
+    color: rgba(170, 167, 152, 0.842);
+    font-size: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 20px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+}
+.sobre-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre-conteiner>.texto-conteiner {
+    font-size: 22px;
+    text-align: justify;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.br-50{ /* bordas */
+    border-radius: 50%;
+}
+.pd-30{ /*padding30*/
+    padding: 30px;
+}
+.wh-350{    /* largura e altura*/
+    width: 350px;
+    height: 350px;
+}
+
+/* Style faleConosco.html*/
+
+/* Style OqueFaço.html*/
+
+/* Style quemSou.html*/
