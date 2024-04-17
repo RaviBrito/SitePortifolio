@@ -4,27 +4,35 @@ body {
     color: rgba(255, 255, 255, 0.808);
     
 }
+#menu {
+    display: flexbox;
+    padding-top: 50px;
+
+}
 
 #menu ul {
     justify-content: center;
     list-style-type: none;
     display: flex;
+    
 }
 
 #menu li {
     display: inline;
     padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #menu li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.822);
-    font-size: 20px;
+    font-size: 18px;
 }
 #menu li a:hover {
     text-decoration: none;
     color: rgba(170, 167, 152, 0.842);
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .titulo {
@@ -38,12 +46,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.sobre-conteiner>.texto-conteiner {
-    font-size: 22px;
-    text-align: justify;
-    justify-content: flex-end;
-    padding: 30px;
-}
+
 .br-50{ /* bordas */
     border-radius: 50%;
 }
@@ -55,7 +58,33 @@ body {
     height: 350px;
 }
 
+.linguagens{
+    display: inline;
+    align-items: start;
+}
+.linguagens li{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Style faleConosco.html*/
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 18px;
+    background-color: #202020;
+    color: rgba(255, 255, 255, 0.808);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forms {
+    font-size: 16px;
+    justify-content: left;
+}
 
 /* Style OqueFaço.html*/
 
